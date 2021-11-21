@@ -23,7 +23,7 @@ table,  td, th, tr {
   border-collapse: collapse;
 }
 
-tr.borderBottom {
+tr.borderbottom {
   border-bottom: 1pt solid black;
 }
 
