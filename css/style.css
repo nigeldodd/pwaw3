@@ -23,6 +23,11 @@ table,  td, th {
   border-collapse: collapse;
 }
 
+tr.borderBottom {
+  border-bottom: 1pt solid black;
+}
+
+
 td.grn {
   background-color: green;
 }
