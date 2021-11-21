@@ -24,7 +24,7 @@ table,  td, th, tr {
 }
 
 tr.borderbottom {
-  border-bottom: 1pt solid black;
+  border-bottom: 3pt black;
 }
 
 
