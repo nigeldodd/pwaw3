@@ -19,7 +19,7 @@ html, .fullscreen {
     font-size: 3rem;
 }
 
-table,  td, th {
+table,  td, th, tr {
   border-collapse: collapse;
 }
 
