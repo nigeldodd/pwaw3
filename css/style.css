@@ -18,3 +18,7 @@ html, .fullscreen {
 .title {
     font-size: 3rem;
 }
+
+td.grn {
+  color: green;
+}
