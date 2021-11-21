@@ -22,3 +22,9 @@ html, .fullscreen {
 td.grn {
   background-color: green;
 }
+td.red {
+  background-color: red;
+}
+td.blu {
+  background-color: blue;
+}
