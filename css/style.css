@@ -19,6 +19,10 @@ html, .fullscreen {
     font-size: 3rem;
 }
 
+table,  td, th {
+  border-collapse: collapse;
+}
+
 td.grn {
   background-color: green;
 }
