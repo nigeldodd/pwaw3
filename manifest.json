@@ -1,6 +1,6 @@
 {
-    "name": "Hello World",
-    "short_name": "Hello",
+    "name": "Clinical staging",
+    "short_name": "Clinical staging",
     "lang": "en-US",
     "start_url": "/index.html",
     "display": "standalone",
