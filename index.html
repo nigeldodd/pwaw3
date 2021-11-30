@@ -1,44 +1,32 @@
-t<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
-  <link rel="manifest" href="/pwa/manifest.json">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <script type="module" src="js/main.js"></script>
+  <link rel="manifest" href="/manifest.json">
   <meta charset="utf-8">
-  <title>Clinical staging</title>
+  <title>Hello World</title>
   <link rel="stylesheet" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="white"/>
 </head>
-<body class="fullscreen">
-  <div class="container" id="con">
-    <p>clinical staging 4</p>
-    <p id="demo"></p>
-     <script>
-        //var body = document.getElementsByTagName("body")[0];
-        var body = document.getElementById("con");
-        var ourTable     = document.createElement("table");
-        var ourTableBody = document.createElement("tbody");
-        for (var i = 0; i < 4; i++) {
-          var row = document.createElement("tr"); 
-          for (var j = 0; j <2; j++) {  
-            var cell = document.createElement("td");
-            var cellText = document.createTextNode("cell in row "+i+", column "+j);
-            cell.appendChild(cellText);
-            row.appendChild(cell);
-          }
-          ourTableBody.appendChild(row);
-        } 
-        //ourTable.appendChild(ourTableBody); 
-        /*body.appendChild(ourTable);*/
-        //document.getElementById("con").innerHTML=ourTable
-        //document.getElementById("demo").innerHTML=ourTable
-        //document.getElementById("con").innerHTML="hello"
-        //document.getElementById('con').insertAdjacentHTML('beforeend', 'hello3');  //ok
-        body.appendChild(ourTable);
-        //document.getElementById('con').insertAdjacentHTML('beforeend', ourTable);
-        ourTable.setAttribute("border", "2");
-      </script>
-
+<body class="fullscreen" id="fullscreen1">
+  
+  <div class="container" id="container1">
+    <table class="styled-table" id="main-table">
+      <thead>
+          <tr>
+              <th>Name</th>
+              <th>Day</th>
+              <th>Next Action</th>
+          </tr>
+      </thead>
+      <tbody id = "tbody">
+          
+      </tbody>
+  </table>  
+  
+    <!-- <canvas id="myCanvas"  style="border:1px solid #d3d3d3;">Your browser does not support the HTML5 canvas tag.</canvas> -->
   </div>
-  <script src="js/main.js"></script>
 </body>
 </html>
