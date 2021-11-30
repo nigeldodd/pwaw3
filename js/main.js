@@ -35,7 +35,7 @@ window.onload = () => {
         "next" : "Consultation"
     },
     {
-        "name" : "Sarah",
+        "name" : "Sara",
         "stage" : 1,
         "next" : "Consultation"
     },
